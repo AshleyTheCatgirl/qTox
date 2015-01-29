@@ -189,7 +189,8 @@ HEADERS  += src/widget/form/addfriendform.h \
     src/misc/serialize.h \
     src/widget/form/settings/advancedform.h \
     src/audio.h \
-    src/widget/callconfirmwidget.h
+    src/widget/callconfirmwidget.h \
+    src/toxme.h
 
 SOURCES += \
     src/widget/form/addfriendform.cpp \
@@ -257,7 +258,8 @@ SOURCES += \
     src/misc/serialize.cpp \
     src/widget/form/settings/advancedform.cpp \
     src/audio.cpp \
-    src/widget/callconfirmwidget.cpp
+    src/widget/callconfirmwidget.cpp \
+    src/toxme.cpp
 
 contains(DEFINES, QTOX_FILTER_AUDIO) {
     HEADERS += src/audiofilterer.h
